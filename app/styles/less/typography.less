@@ -1,0 +1,48 @@
+html, body {
+font-family: "droid Sans";
+overflow-x:hidden;
+}
+p {
+    margin-bottom: @baseLineHeight;
+}
+blockquote:before {
+display: block;
+content: "\201C";
+font-size: 80px;
+position: absolute;
+left: -20px;
+top: -20px;
+color: #7a7a7a;
+}
+.item, .shippingOption {
+    display:block;
+    font-weight:bold;
+}
+h1, h2, h3 {
+    font-weight:bold;
+}
+h1 {
+font-size: @baseFontSize * 2;
+line-height: @baseLineHeight * 3;
+font-family:Orbitron;
+}
+h2 {
+font-size: @baseFontSize * 3;
+line-height: @baseLineHeight * 2;
+.column(12);
+margin-bottom:@baseLineHeight*1.5;
+font-family: "Permanent Marker";
+.clearfix();
+}
+h3 {
+font-size: @baseFontSize * 1.5;
+line-height: @baseLineHeight * 2;
+}
+h1.price {
+font-family: "Droid Sans";
+font-size:@baseFontSize*6;
+margin: @baseLineHeight 0;
+}
+em {
+    font-weight:bold;
+}
